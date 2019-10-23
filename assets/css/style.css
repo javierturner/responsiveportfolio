@@ -1,3 +1,21 @@
-img {
-    margin-right: 200px;
+/* .navbar navbar-expand-lg navbar-light {
+    background-color: blue;
+} */
+
+/* name in navbar */
+.navbar-brand {
+    color: #ffffff;
+    background-color: #45E3D1;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 80px;
+    font-size: 40px;
+    padding: 10px 20px;
+    
+}
+
+/* links */
+#navbarNavAltMarkup {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
 }
