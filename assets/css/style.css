@@ -13,12 +13,19 @@
     height: 80px;
     font-size: 40px;
     padding: 10px 20px;
-    margin-left: 30 !important;
+    /* margin-left: 30 !important; */
+    margin: 0px 16px 0px 250px;
 }
 
 .nav-link {
     color: #1B9AAA;
     font-weight: bold;
+    /* margin-right: 200px; */
+}
+
+ul {
+    /* margin-right: 270px; */
+    float: right;
 }
 
 .navbar-toggler {
@@ -40,6 +47,7 @@ h2 {
     color: #1B9AAA;
     font-weight: bolder;
     font-size: 35px;
+    margin-left: 20px;
 }
 
 hr {
@@ -49,6 +57,7 @@ hr {
 
 img {
     border: 2px solid  #1B9AAA;
+    margin-top: 25px;
 }
 
 .footer {
@@ -113,4 +122,22 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #707675;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .col-md-12 {
+margin: 0 auto;
+  }
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+    
+    
+    width: 47px;
+    height: 34px;
+    background-color: #7eb444;
+}
+
+
+
+
   }
