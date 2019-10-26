@@ -32,13 +32,13 @@ ul {
     float: right;
 }
 
-.navbar-toggler {
+/* .navbar-toggler { */
     /* color: red; */
-}
+/* } */
 
-.header {
+/* .header { */
     /* color: red; */
-}
+/* } */
 
 /* button, input {} */
 
@@ -88,7 +88,7 @@ html {
 
 /* Portfolio elements*/
 .body-projects {
-    padding: 50px 200px;
+    padding: 10px 200px;
 }
 
 .col-md-6 p {
@@ -139,6 +139,12 @@ input[type=text], select, textarea {
 
   /* Media Queries */
   @media (max-width: 768px) {
+
+    .body-projects {
+        padding: 100px;
+        width: 50%;
+        height: auto;
+    }
     
 .navbar-toggler-icon {
     width: 47px;
@@ -160,14 +166,7 @@ button.navbar-toggler {
     background-color: #1B9AAA;
 }
 
-.col-md-6 {
+/* .col-md-6 { */
     /* padding: 50px; */
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
-
-.body-projects {
-    padding: 30px;
-
-}
-
-  }
