@@ -1,26 +1,30 @@
 /* Common elements */
 
-/* .navbar navbar-expand-lg navbar-light {
-    background-color: blue;
-} */
-
 /* name in navbar */
 .navbar-brand {
-    color: #ffffff;
+    color: #ffffff !important;
     background-color: #1B9AAA;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
     height: 80px;
     font-size: 40px;
     padding: 10px 20px;
-    /* margin-left: 30 !important; */
-    margin: 0px 16px 0px 250px;
+    margin-left: 30 !important;
+    margin: 0px 16px 0px 237px;
 }
 
 .nav-link {
-    color: #1B9AAA;
+    color: #1B9AAA !important;
     font-weight: bold;
-    /* margin-right: 200px; */
+}
+
+.navbar-nav {
+    margin-right: 250px;
+}
+
+a:active {
+    background-color: #1B9AAA;
+    color: #ffffff;
 }
 
 ul {
@@ -29,12 +33,14 @@ ul {
 }
 
 .navbar-toggler {
-    color: red;
+    /* color: red; */
 }
 
 .header {
-    color: red;
+    /* color: red; */
 }
+
+/* button, input {} */
 
 /* links */
 #navbarNavAltMarkup {
@@ -79,6 +85,7 @@ html {
     margin-bottom: 60px;
   }
 
+
 /* Portfolio elements*/
 .body-projects {
     padding: 50px 200px;
@@ -98,7 +105,8 @@ html {
     margin-left: 17px;
 }
 
-/* Contact Me */
+
+/* Contact */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px; 
@@ -125,19 +133,41 @@ input[type=text], select, textarea {
   }
 
   .col-md-12 {
-margin: 0 auto;
+    margin: 0 auto;
   }
+
 
   /* Media Queries */
   @media (max-width: 768px) {
     
-    
+.navbar-toggler-icon {
     width: 47px;
     height: 34px;
-    background-color: #7eb444;
+    /* background-color: #1B9AAA; */
 }
 
+.navbar-brand {
+    margin: 0 !important;
+    float: left;
+    size: 50%;
+}
 
+.nav-link {
+    text-align: left;
+}
 
+button.navbar-toggler {
+    background-color: #1B9AAA;
+}
+
+.col-md-6 {
+    /* padding: 50px; */
+    margin-right: 200px;
+}
+
+.body-projects {
+    padding: 30px;
+
+}
 
   }
